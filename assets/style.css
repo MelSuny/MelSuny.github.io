@@ -1,4 +1,3 @@
-
 .ligne {
     border-left: 4px solid black;
     padding-top: 100px;
@@ -23,10 +22,8 @@ li input {
 }
 
 p {
-    color: white;
+    color: black;
     text-align: center;
-    
-
 }
 
 form {
@@ -45,6 +42,7 @@ h2 {
     font: italic;
 
 }
+
 /*
 .card {
     margin-left: 150px;
@@ -58,4 +56,25 @@ footer {
 
 #maincontenair {
     overflow-x: hidden;
+    background: #90F1EF;
+
+}
+
+#Vente {
+    color: black;
+}
+
+#Dev {
+    color: black;
+
+}
+
+#STMG {
+    color: black;
+
+}
+
+#SIO {
+    color: black;
+
 }
