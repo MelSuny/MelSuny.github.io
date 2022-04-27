@@ -43,20 +43,22 @@ h2 {
 
 }
 
-/*
+
 .card {
-    margin-left: 150px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
-*/
+
 
 footer {
     background-color: pink;
-
+    height: 75px;
 }
 
 #maincontenair {
     overflow-x: hidden;
-    background: #90F1EF;
+    background: #bafffe;
 
 }
 
