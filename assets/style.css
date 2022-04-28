@@ -1,24 +1,20 @@
-.ligne {
-    border-left: 4px solid black;
-    padding-top: 100px;
-    height: 100vh;
-}
 
-.ligne2 {
-    border-top: 4px solid black;
-    padding-top: 50px;
-}
+/* hr class pour les lignes */
+
 
 li {
     list-style: none;
     margin: 20px;
     padding-right: 150px;
     text-align: left;
+    color: black;
 }
 
-li input {
-    width: 200px;
-    float: right;
+
+
+
+.nav-item {
+    margin: 0px;
 }
 
 p {
@@ -29,10 +25,10 @@ p {
 form {
     border: 1px black solid;
     border-radius: 10px;
-    background-color: pink;
+    background-color: #f28482;
     padding: 5px 10px;
     width: 100%;
-    margin: 90px;
+    margin: 10px;
 }
 
 h1,
@@ -43,23 +39,23 @@ h2 {
 
 }
 
-
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
 }
 
 
 footer {
-    background-color: pink;
-    height: 75px;
+    background-color: #f28482;
+    height: 100px;
 }
 
 #maincontenair {
     overflow-x: hidden;
-    background: #bafffe;
-
 }
 
 #Vente {
