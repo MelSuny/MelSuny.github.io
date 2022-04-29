@@ -1,5 +1,7 @@
-
-/* hr class pour les lignes */
+/* bgprofil+portfolio */
+#bgprofil {
+    background-color: #f28482a1;
+}
 
 
 li {
@@ -7,19 +9,50 @@ li {
     margin: 20px;
     padding-right: 150px;
     text-align: left;
-    color: black;
+    color: white;
 }
 
+.nav-pills .nav-link.active,
+.nav-pills .show .nav-link {
+    background-color: #f28482;
+    color: white;
+}
 
+.nav-link:hover {
+    background-color: #000000;
+    color: white;
+}
 
+.nav-link {
+    color: white;
+}
+
+/* Barre de navigation top */
+.nav-item a.btn:hover {
+    background-color: #242020;
+    color: white
+}
+
+a.btn:hover{
+    background-color: #f28482;
+}
+
+a {
+    color: black;
+text-decoration: none;
+}
+a:hover{
+    color:white;
+}
 
 .nav-item {
     margin: 0px;
+
 }
 
 p {
     color: black;
-    text-align: center;
+    margin-left: 5px;
 }
 
 form {
@@ -34,28 +67,52 @@ form {
 h1,
 h2 {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 75px;
     font: italic;
-
+    color: white;
 }
+
 
 .card {
     margin: 0 auto;
-    /* Added */
     float: none;
-    /* Added */
-    margin-bottom: 10px;
-    /* Added */
+    border-radius: 15px;
+
 }
+/* Hover des cards début */
+.card-text:hover{
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: 10px;
+}
+
+.card-title:hover{
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: 10px;
+}
+
+.card-img-top:hover{
+    background-color: #f2848249;
+}
+
+.card-img-overlay:hover {
+    box-shadow: #ffffff; 
+    background-color: #f2848249;
+}
+
+/* Hover des cards fin */
 
 
 footer {
     background-color: #f28482;
-    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+ 
 }
+
 
 #maincontenair {
     overflow-x: hidden;
+    background-color: #000000ce;
 }
 
 #Vente {
@@ -76,3 +133,10 @@ footer {
     color: black;
 
 }
+#triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 30px solid white;
+    border-bottom: 15px solid transparent;
+  }
