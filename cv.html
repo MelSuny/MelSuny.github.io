@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/style.css">
-    <title>CV Numérique Mélanie Lussan</title>
+    <title>CV Mélanie Lussan</title>
 </head>
 
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-0" style="background-color:#f28482;">
+    <!--  <nav class="navbar fixed-top navbar-expand-lg navbar-light p-0" style="background-color:#f28482;">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +25,8 @@
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
                         <a class="btn btn-light border border-dark mb-3 "
-                            href="file:///D:/Document/Pro/Boulot/CVNum%C3%A9rique/cv.html" role="button">Home</a>
+                            href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html"
+                            role="button">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="btn btn-light border border-dark mb-3" href="#qui" role="button">A propos de
@@ -43,36 +47,95 @@
                 </ul>
             </div>
         </div>
+    </nav> -->
+    <!--  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-danger p-0 ">
+        <div class="container-fluid">
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active rounded-pill" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-pill" href="#qui">Moi et mes loisirs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-pill" href="#formation">Mon parcours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-pill" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link rounded-pill"
+                            href="file:///C:/Users/lussa/OneDrive/Documents/Perso/CV LussanMélanie[75].pdf">Voir mon
+                            CV</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </nav> -->
+
+
+    <nav class="mainNav navbar nav fixed-top txtWhite px-md-3 bg-black mx-auto">
+        <a class="nav-link active rounded-pill" href="#home">
+            <p class="d-none d-md-block"><i class="fa-solid fa-house fa-2x"> </i> Home</p>
+        </a>
+        <a class="nav-link rounded-pill" href="#qui">
+            <p class="d-none d-md-block"> <i class="fa-solid fa-book-open fa-2x"></i> Moi et mes loisirs</p>
+        </a>
+        <a class="nav-link rounded-pill" href="#formation">
+            <p class="d-none d-md-block"><i class="fa-solid fa-compass fa-2x"></i> Mon parcours</p>
+        </a>
+        <a class="nav-link rounded-pill" href="#portfolio">
+            <p class="d-none d-md-block"><i class="fa-solid fa-laptop-code fa-2x"></i> Mon Portfolio</p>
+        </a>
+        <a class="nav-link rounded-pill"
+            href="file:///C:/Users/lussa/OneDrive/Documents/Perso/CV LussanMélanie[75].pdf">
+            <p class="d-none d-md-block"><i class="fa-solid fa-download fa-2x"> </i> Voir mon CV</p>
+        </a>
     </nav>
+
+
+
 
     <div class="container-fluid vh-100 g-0" id="maincontenair">
 
         <!-- Première Page -->
 
-        <div id="curri">
+        <!--  <div id="curri">
             <div class="row vh-100">
                 <div class="col-sm-12 col-md-8 align-self-center">
                     <img src="img/Profileeyesmouthsmall.png">
                     <h1>Mélanie Lussan</h1>
                     <h2>Développement web et web mobile Junior</h2>
+                    <p class="text-center">25 ans - Compiègne (60) - Permis B - véhiculée </p>
                     <div class="col-12 d-flex column justify-content-center">
-                        <a href="#contact" class="btn btn-light btn-lg border border-dark">Contact</a>
+                        <a href="mailto:lussan.mel@hotmail.com"
+                            class="btn rounded-pill btn-danger btn-lg border border-dark">Contact</a>
                     </div>
 
                 </div>
 
                 <div class="col-sm-3 col-md-2 align-self-center">
                     <div class="row text-center">
-                        <a class="btn btn-light border border-dark mb-3" href="#qui" role="button">A propos de
+                        <a class="btn rounded-pill btn-danger border border-dark mb-3" href="#qui" role="button">A
+                            propos de
                             moi</a>
-                        <a class="btn btn-light border border-dark mb-3" href="#loisirs" role="button">Mes
-                            loisirs</a>
-                        <a class="btn btn-light border border-dark mb-3" href="#formation" role="button">Mon
+                        <a class="btn rounded-pill btn-danger border-dark mb-3" href="#formation" role="button">Mon
                             parcours</a>
-                        <a class="btn btn-light border border-dark mb-3" href="#portfolio" role="button">Mon
+                        <a class="btn rounded-pill btn-danger border-dark mb-3" href="#portfolio" role="button">Mon
                             portfolio</a>
-                        <a class="btn btn-light border border-dark"
-                            href="file:///D:/Document/Pro/Bordel/CV/CV%20LussanM%C3%A9lanie.pdf" role="button">Voir
+                        <a class="btn rounded-pill btn-danger border-dark mb-3"
+                            href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/dessins.html"
+                            role="button">Mes dessins</a>
+                        <a class="btn rounded-pill btn-danger border border-dark"
+                            href="file:///C:/Users/lussa/OneDrive/Documents/Perso/CV LussanMélanie[75].pdf"
+                            role="button">Voir
                             mon
                             CV</a>
 
@@ -81,89 +144,87 @@
                 <div class="col-2"></div>
 
             </div>
+        </div> -->
+        <div class="container-fluid align-middle">
+            <div class="row">
+                <div class="col col-md-6 p-5">
+                    <h2>Qui-suis-je ?</h2>
+                    <img src="img/Profileeyesmouthsmall.png">
+                    <p>Je suis Mélanie Lussan. Née le 8 Février 1997, j'ai aujourd'hui 25 ans, et permis B en poche.
+                        Je suis née avec un clavier entre les mains, et une manette de console entre les doigts.</p>
+                    <p>J'ai toujours été quelqu'un de créatif. D'aussi longtemps que je me souvienne en tout cas. Avec
+                        une imagination plutôt débordante, je dessine et j'écris beaucoup, ce qui fait que les
+                        idées fusent, et ce n'est parfois pas très pratique quand je suis déjà en train d'écrire ou de
+                        dessiner quelque chose.
+                        Je suis également une grande joueuse de jeux vidéo, depuis toute petite, grâce à mon père. Il
+                        est fort
+                        possible que mon imagination vienne d'ici.
+                        Que ce soit des lieux, des personnages ou simplement des animaux, si
+                        ça vient d'un jeu vidéo, je vais avoir envie de créer quelque chose avec, et ça devient difficle
+                        de m'arrêter après avoir commencé ! Je suis également une streameuse sur une plateforme de
+                        streaming. J'aime m'amuser avec les autres et partager ma passion des jeux-vidéos.
+                    </p>
+                </div>
+                <div class="col col-12 col-md-6 prescolor text-center p-5">
+                    <br></br>
+                    <i class="fa-solid fa-car-on fa-3x"></i> <i class="fa-solid fa-keyboard fa-3x"></i> <i
+                        class="fa-brands fa-html5 fa-3x"></i>
+                    <h1>Mélanie Lussan</h1>
+                    <h2>Développement web et web mobile Junior</h2>
+                    <p class="text-center">25 ans - Compiègne (60) - Permis B - véhiculée </p>
+                    <a href="mailto:lussan.mel@hotmail.com"
+                        class="btn rounded-pill btn-primary btn-lg border border-dark">Contact</a>
+                </div>
+            </div>
         </div>
-        <hr style="height: 2px; color: #f28482; background-color: #f28482; width: 80%; border:none;">
 
+        <hr>
 
-        <!-- QUI SUIS JE? -->
+        <!-- QUI SUIS JE -->
+        <!-- Test de création arrondie pour mon histoire et mes loisirs -->
+        <div class="container-fluid align-middle">
+            <div id="qui"></div>
+            <div class="row">
 
-        <div id="bgprofil">
-            <div class="container-fluid">
-                <div class="col col-md-4">
-
-                    <h3 class="border border-dark p-1 bg-white text-center">À propos de moi <img
-                            src="img/draws/Slytherin.png" height="50" width="100"> </h3>
+                <div class="col col-12 col-md-6 prescolor text-center p-5">
+                    <!--  <img src="img/1579557170066_css.png"> -->
+                    <i class="fa-brands fa-twitch fa-3x"></i> <i class="fa-solid fa-gamepad fa-3x"></i> <i
+                        class="fa-brands fa-xbox fa-3x"></i>
+                    <p>Streamer</p>
+                    <i class="fa-solid fa-book fa-3x"></i> <i class="fa-solid fa-pen-fancy fa-3x"></i>
+                    <p>Lire/écrire</p>
+                    <i class="fa-solid fa-wand-sparkles fa-3x"></i>
+                    <p>Univers magique/fantastique</p>
                 </div>
-                <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <button class="nav-link active border border-dark" id="nav-moi-tab" data-bs-toggle="tab"
-                            data-bs-target="#nav-moi" type="button" role="tab" aria-controls="nav-moi"
-                            aria-selected="true">
-                            <div id="qui"></div>
-                            <h3>Mon histoire
-                        </button></h3>
-                        <button class="nav-link border border-dark" id="nav-loisirs-tab" data-bs-toggle="tab"
-                            data-bs-target="#nav-loisirs" type="button" role="tab" aria-controls="nav-loisirs"
-                            aria-selected="false">
-                            <div id="loisirs"></div>
-                            <h3>Loisirs
-                        </button></h3>
-                    </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active " id="nav-moi" role="tabpanel" aria-labelledby="nav-moi-tab">
-                        <p>Je suis Mélanie Lussan. Née le 8 Février 1997, j'ai aujourd'hui 25 ans, et permis B en poche.
-                            Je
-                            suis née avec un clavier entre les mains, et une manette de console entre les doigts. J'ai
-                            effectué un parcours similaire tout au long de ma scolarité, dans le domaine informatique.
-                            Ayant
-                            commencé
-                            par un Bac STMG option SIG (Système d'Information de Gestion), j'ai pu poursuivre avec un
-                            BTS
-                            SIO option SISR, et donc orienté réseau (serveurs avec l'AD par exemple), tout deux situés
-                            au
-                            Lycée
-                            Merleau Ponty, à ROCHEFORT, en Charente-Maritime. Suite à cela, j'ai eu la possibilité de
-                            suivre
-                            une
-                            formation en distanciel sur la vente en informatique avec le CNFDI. Mais disons que, bien
-                            que ça
-                            me plaisait beaucoup, j'avais besoin de ce contact permanant avec les ordinateurs. Entre ma
-                            formation en vente et maintenant, j'ai pu apprendre au sein d'un Service Civique effectué au
-                            Collège Paul
-                            Eluard, à Noyon, dans l'Oise, comment gérer des enfants de 11 ans à 15 ans, mais également
-                            les
-                            aider à travailler. C'était une expérience très enrichissante, mais encore une fois, le
-                            contact
-                            avec
-                            l'ordinateur me manquait. A ce jour, je suis donc en formation au sein de LA MANU, sur le
-                            campus
-                            de Compiègne, en tant développeuse web et web mobile, dans laquelle je me plais énormément.
-                        </p>
-                    </div>
-                    <div class="tab-pane fade" id="nav-loisirs" role="tabpanel" aria-labelledby="nav-loisirs-tab">
-                        <p>Je dessine et j'écris beaucoup. J'ai une imagination plutôt débordante, ce qui fait que les
-                            idées
-                            fusent, et ce n'est parfois pas très pratique quand je suis déjà en train d'écrire quelque
-                            chose.
-                            Je suis également une grande joueuse de jeux vidéo, depuis toute petite, et il est fort
-                            possible
-                            que
-                            mon imagination vienne d'ici. Que ce soit des lieux, des personnages ou simplement des
-                            animaux,
-                            si
-                            ça vient d'un jeu vidéo, je vais avoir une envie de créer quelque chose avec ! Il m'arrive
-                            également
-                            de streamer de temps en temps. </p>
-                    </div>
-                </div>
+                <div class="pres col col-12 col-md-6  text-center d-none d-md-block">
+                    <h2>Mon Parcours</h2>
+                    <p> Issue d'un parcours similaire tout au long de ma scolarité, je suis entréé dans le domaine
+                        informatique très jeune.
+                        Mon début dans le domaine a été effectué avec un Bac STMG option SIG (Système d'Information de
+                        Gestion), grâce auquel j'ai pu poursuivre avec un BTS SIO option SISR, et donc orienté réseau
+                        (serveurs avec l'AD par exemple), tout deux situés
+                        au Lycée Merleau Ponty, à ROCHEFORT, en Charente-Maritime. Suite à cela, j'ai eu la possibilité
+                        de suivre une formation en distanciel sur la vente en informatique avec le CNFDI. Mais disons
+                        que,
+                        bien que ça me plaisait beaucoup, j'avais besoin de ce contact permanant avec les ordinateurs.
+                        Entre
+                        ma formation en vente et maintenant, j'ai pu apprendre au sein d'un Service Civique effectué au
+                        Collège Paul Eluard, à Noyon, dans l'Oise, comment gérer des enfants de 11 ans à 15 ans, mais
+                        également les
+                        aider à travailler. C'était une expérience très enrichissante, mais encore une fois, le
+                        contact
+                        avec
+                        l'ordinateur me manquait. A ce jour, je suis donc en formation au sein de LA MANU, sur le
+                        campus
+                        de Compiègne, en tant développeuse web et web mobile, dans laquelle je me plais énormément, et
+                        dans laquelle j'aime apprendre et évoluer avec le temps.</p>
 
+                </div>
             </div>
         </div>
 
 
-        <hr style="height: 2px; color: #f28482; background-color: #f28482; width: 80%; border: none;">
-
+        <hr>
 
 
         <!-- Formation/Experience et plus si besoin-->
@@ -190,15 +251,12 @@
                             aria-orientation="vertical">
                             <button class="nav-link active  border border-dark" id="v-pills-bac-tab"
                                 data-bs-toggle="pill" data-bs-target="#v-pills-bac" type="button" role="tab"
-                                aria-controls="v-pills-bac" aria-selected="true">BAC STMG SIO <div id="triangle-right">
-                                </div></button>
+                                aria-controls="v-pills-bac" aria-selected="true">BAC STMG SIO <img
+                                    src="img/logo-Merleau-Ponty.png" width="125px" height="50px"></button>
                             <button class="nav-link  border border-dark" id="v-pills-bts-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-bts" type="button" role="tab" aria-controls="v-pills-bts"
-                                aria-selected="false">BTS SIO SISR<div id="triangle-right"></div></button>
-                            <button class="nav-link  border border-dark" id="v-pills-vente-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-vente" type="button" role="tab" aria-controls="v-pills-vente"
-                                aria-selected="false">Vente en
-                                informatique<div id="triangle-right"></div></button>
+                                aria-selected="false">BTS SIO SISR <img src="img/logo-Merleau-Ponty.png" width="125px"
+                                    height="50px"></button>
                             <button class="nav-link border border-dark" id="v-pills-dev-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-dev" type="button" role="tab" aria-controls="v-pills-dev"
                                 aria-selected="false">Developpement web et
@@ -211,7 +269,7 @@
                     </div>
 
                 </div>
-                <div class="tab-content col col-md-10 border border-dark" id="v-pills-tabContent">
+                <div class="tab-content col col-md-10" id="v-pills-tabContent">
                     <div class="tab-pane fade show active" id="v-pills-bac" role="tabpanel"
                         aria-labelledby="v-pills-bac-tab">
                         <div class="row">
@@ -232,22 +290,41 @@
 
                     <div class="tab-pane fade" id="v-pills-bts" role="tabpanel" aria-labelledby="v-pills-bts-tab">
                         <div class="row">
-                            <div class="col-12 col-md-6">
+                            <div class="col-sm-12 col-md-6">
                                 <p style="color:white">Compétentes acquises pendant le cursus du BTS SIO SISR</p>
                                 <ol>
                                     <li>Administrer un Système d'inforamtion (SI)</li>
+                                    <li> <i class="fab fa-linux fa-3x"></i> <i class="fab fa-windows fa-3x"></i>
+                                        <p class="d-none d-md-block">Administration serveur
+                                            Linux/Windows </p>
+                                    </li>
                                     <li>Améliorer un Système d'Information</li>
-                                    <li>Gérer les droits d'accès aux utilisateurs</li>
+                                    <li><i class="fa-solid fa-lock fa-3x"></i>
+                                        <p class="d-none d-md-block">Gérer les droits d'accès
+                                            aux utilisateurs</p>
+                                    </li>
                                     <li>Sélectionner les équipements informatiques</li>
-                                    <li>Traiter l'information (collecter, classer, mettre à jour)</li>
+                                    <li> <i class="fa-solid fa-network-wired fa-3x"></i>
+                                        <p class="d-none d-md-block">Traiter l'information
+                                            (collecter,
+                                            classer, mettre à jour)</p>
+                                    </li>
                                     <li>Former un public à l'utilisation d'un équipement</li>
-                                    <li>Gestion des risques/sécurité des données</li>
-                                    <li>Windows Serveurs/Active Directory</li>
+                                    <li><i class="fa-solid fa-key fa-3x"></i>
+                                        <p class="d-none d-md-block">Gestion des
+                                            risques/sécurité des
+                                            données</p>
+                                    </li>
                                     <li>Diagnostiquer la nature et l'origine des incidents</li>
                                     <li>Maintenir le bon fonctionnement des serveurs</li>
+                                    <li> <i class="fa-solid fa-file-pen fa-3x"></i>
+                                        <p class="d-none d-md-block">Rédaction d'une
+                                            documentation technique</p>
+                                    </li>
+
                                 </ol>
                             </div>
-                            <div class="col-12 col-md-6">
+                            <div class="col-sm-12 col-md-6">
                                 <ol>
                                     <li>Effectuer des interventions de maintenances informatiques de bases
                                         (remplacement de matériels obsolètes, de câbles ethernet etc).</li>
@@ -256,22 +333,14 @@
                                     <li>Mise en place d'un nouveau système de communication au travers d'écran
                                         interconnectés dans l'entreprise avec un OS Linux, Fedora, déployé en RDP
                                         (remote desktop protocol) sur des clients légers, qui se connectent
-                                        directement sur le serveur central de l'entreprise.</li>
+                                        directement sur le serveur central de l'entreprise.<i
+                                            class="fab fa-fedora fa-3x"></i><i class="fa-brands fa-centos fa-3x"></i><i
+                                            class="fa-brands fa-redhat fa-3x"></i></li>
                                 </ol>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="v-pills-vente" role="tabpanel" aria-labelledby="v-pills-vente-tab">
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-                                <p style="color:white"> Compétentes acquises pendant les cursus de vente en informatique
-                                </p>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="tab-pane fade" id="v-pills-dev" role="tabpanel" aria-labelledby="v-pills-dev-tab">
                         <div class="row">
                             <div class="col-12 col-md-6">
@@ -279,16 +348,25 @@
                                     web mobile</p>
                                 <ol>
                                     <li>Acquisition des compétentes en cours de formation</li>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Bootstrap</li>
+                                    <li><i class="fa-brands fa-html5 fa-3x"></i>
+                                        <p class="d-none d-md-block">HTML</p>
+                                    </li>
+                                    <li><i class="fa-brands fa-css3-alt fa-3x"></i>
+                                        <p class="d-none d-md-block">CSS</p>
+                                    </li>
+                                    <li><i class="fa-brands fa-bootstrap fa-3x"></i>
+                                        <p class="d-none d-md-block">Bootstrap</p>
+                                    </li>
+                                    <li><i class="fa-brands fa-github fa-3x"></i>
+                                        <p class="d-none d-md-block">GitHub</p>
+                                    </li>
                                 </ol>
                             </div>
                             <div class="col-12 col-md-6">
                                 <ol>
                                     <li>Création d'un projet de site web pour un Hopital fictif en groupe</li>
                                     <li>Création d'un projet de site web pour le TP de fin de formation</li>
-                                    <li></li>
+                                    <li>Création d'un CV numérique et le mettre en ligne avec GitHub</li>
                                 </ol>
                             </div>
                         </div>
@@ -298,6 +376,7 @@
                         <div class="row">
                             <div class="col-12 col-md-6">
                                 <p style="color:white">Compétentes acquises pendant le service civique</p>
+                                <li>Discipline</li>
                             </div>
                             <div class="col-12 col-md-6">
                                 <ol>
@@ -313,7 +392,7 @@
             </div>
         </div>
 
-        <hr style="height: 2px; color: #f28482; background-color: #f28482; width: 80%; border: none;">
+        <hr>
 
         <!-- Portofolio-->
         <div id="bgprofil">
@@ -322,26 +401,46 @@
 
                 <div id="portfolio">
                     <div class="row">
-                        <div class="col-sm-12 col-md-4 ">
-                            <div class="card h-100 border border-dark" style="width: 20rem; background-color: #f28482;">
-                                <img src="img/hh.webp" class="card-img-top">
-                                <h3>Frameworks CSS</h3>
+                        <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                            <div class="card h-100 border border-dark prescolor">
+                                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                                    data-bs-interval="false">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/PreziPresIMG1.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/PreziPresIMG2.png" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <h3 class="ms-4 ">Frameworks CSS</h3>
                                 <div class="card-body">
                                     <h5 class="card-title">Frameworks CSS</h5>
                                     <p class="card-text">Présentation rapide et sommaire de quelques frameworks CSS avec
                                         prezi</p>
-                                    <a href="https://prezi.com/p/dupfi-ciexdz/?present=1" class="btn border border-dark"
-                                        style="background-color: #90F1EF;">Voir
+                                    <a href="https://prezi.com/p/dupfi-ciexdz/?present=1"
+                                        class="btn rounded-pill border border-dark btn-primary">Voir
                                         la présentation</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 ">
-                            <div class="card h-100 border border-dark" style="width: 20rem; background-color: #f28482;">
+                        <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                            <div class="card h-100 border border-dark prescolor">
                                 <img src="img/tombraider.png" class="card-img-top">
-                                <h3>Projet Tomb Raider</h3>
+                                <h3 class="ms-4 ">Projet Tomb Raider</h3>
                                 <div class="card-body">
-                                    <h5 class="card-title">Projet d'essai</h5>
+                                    <h5 class="card-title ">Projet d'essai</h5>
                                     <p class="card-text">Consiste en une page relatant quelques avantures de la
                                         légendaire
                                         Lara
@@ -350,37 +449,60 @@
                                         ou
                                         au
                                         moins la maquette si c'est en cours de création)</p>
-                                    <a href="#" class="btn border border-dark" style="background-color: #90F1EF;">Voir
+                                    <a href="#" class="btn border border-dark rounded-pill btn-primary">Voir
                                         le
                                         projet</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-sm-12 col-md-4 ">
-                            <div class="card h-100 border border-dark" style="width: 20rem; background-color: #f28482;">
+                        <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                            <div class="card h-100 border border-dark prescolor">
+                                <div id="carouselShifu" class="carousel slide" data-bs-touch="false"
+                                    data-bs-interval="false">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/Shiffu-Effect/PresShifu.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Shiffu-Effect/PresShifuPierre.png" class="d-block w-100"
+                                                alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/Shiffu-Effect/PresShifuPerdu.png" class="d-block w-100"
+                                                alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselShifu"
+                                        data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselShifu"
+                                        data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                                 <img src="img/1200px-Mass_Effect_logo.png" class="card-img-top">
-                                <h3>Projet Mass Effect</h3>
+                                <h3 class="ms-4 ">Shifumi version Mass Effect</h3>
                                 <div class="card-body">
-                                    <h5 class="card-title">Personnages</h5>
-                                    <p class="card-text">Consiste en une page développant quelques personnes du jeu Mass
-                                        Effect.
-                                        (PS
-                                        : Penser à mettre une image du haut de la page du site quand il sera créé ou au
-                                        moins la
-                                        maquette si c'est en cours de création)</p>
-                                    <a href="#" class="btn border border-dark" style="background-color: #90F1EF;">Voir
+                                    <h5 class="card-title ">Shifu-Effect</h5>
+                                    <p class="card-text ">Création d'un Shifumi en utilisant HTML, CSS, bootstrap,
+                                        JavaScrip et JQuery. Il s'agit d'un Shifumi fait avec l'imaginatino d'une
+                                        joueuse Mass Effect, et donc avec le commandant Shepard</p>
+                                    <a href="#" class="btn border border-dark rounded-pill btn-primary">Voir
                                         le
                                         projet</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 ">
-                            <div class="card h-100 border border-dark" style="width: 20rem; background-color: #f28482;">
+                        <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                            <div class="card h-100 border border-dark prescolor">
                                 <img src="img/HarryPotterLogo.png" class="card-img-top">
-                                <h3>CV Stylisé Harry Potter</h3>
+                                <h3 class="ms-4 ">CV Stylisé Harry Potter</h3>
                                 <div class="card-body">
-                                    <h5 class="card-title">Projet 1</h5>
+                                    <h5 class="card-title ">Projet 1</h5>
                                     <p class="card-text">Création d'un CV personnalisé dans l'univers Harry Potter, y
                                         incorporant
                                         des éléments de Role Play dans cet univers. (PS : Penser à mettre une image de
@@ -388,18 +510,18 @@
                                         base
                                         du CV
                                         numérique, ou au moins la maquette du projet si c'est en cours de création)</p>
-                                    <a href="#" class="btn border border-dark" style="background-color: #90F1EF;">Voir
+                                    <a href="#" class="btn border border-dark rounded-pill btn-primary">Voir
                                         le
                                         projet</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 ">
-                            <div class="card h-100 border border-dark" style="width: 20rem; background-color: #f28482;">
-                                <img src="img/Profileeyesmouthsmall.png" class="card-img-top">
-                                <h3>Portfolio de mes dessins</h3>
+                        <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                            <div class="card h-100 border border-dark prescolor">
+                                <img src="img/Profileeyesmouth.ico" class="card-img-top">
+                                <h3 class="ms-4">Portfolio de mes dessins</h3>
                                 <div class="card-body">
-                                    <h5 class="card-title">Dessins</h5>
+                                    <h5 class="card-title ">Dessins</h5>
                                     <p class="card-text">Création d'une page unique où je mettrais progressivement mes
                                         dessins
                                         version papier et version numérique ou au moins la maquette du projet si c'est
@@ -407,7 +529,8 @@
                                         cours
                                         de
                                         création)</p>
-                                    <a href="dessins.html" class="btn" style="background-color: #90F1EF;">Voir les
+                                    <a href="dessins.html" class="btn border border-dark rounded-pill btn-primary">Voir
+                                        les
                                         dessins</a>
                                 </div>
                             </div>
@@ -417,12 +540,12 @@
             </div>
         </div>
 
-        <hr style="height: 2px; color: #f28482; background-color: #f28482; width: 80%; border: none;">
+        <hr>
 
 
         <!-- Contact-->
 
-        <div class="container-fluid ">
+        <!--  <div class="container-fluid ">
             <div class="col-sm-4 col-12 d-flex justify-content-center">
                 <h3 class="border border-dark p-1 bg-white text-center">Vous souhaitiez me contacter ?</h3>
             </div>
@@ -432,9 +555,11 @@
                     <div class="col-md-5 col-12 align-self-center">
                         <h2>Mélanie Lussan</h2>
                         <h2>Développement web et web mobile Junior</h2>
+                        <p class="text-center">25 ans - Compiègne (60) -  Permis B - véhiculée </p>
                         <div class="d-grid  col-4 mx-auto">
                             <div id="contact"></div>
-                            <a href="#curri" class="btn btn-light btn-lg border border-dark"> Retour au CV</a>
+                            <a href="#curri" class="rounded-pill btn btn-danger btn-lg border border-dark"> Retour au
+                                CV</a>
                         </div>
                     </div>
 
@@ -472,13 +597,13 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Footer -->
         <footer>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-3 col-sm-12">
+                    <div class="col-md-4 col-sm-12">
                         <a href="https://www.linkedin.com/in/m%C3%A9lanie-lussan-82781b1b7/">
                             <img src="img/LinkedIn-PNG-HD-Images.png" height="35px" width="35px"></a>
                         <a
@@ -487,20 +612,16 @@
                         <p>© Made by Mélanie Lussan with Bootstrap</p>
                         <p>Credit icon Flaticon</p>
                     </div>
-                    <div class="col-md-3 col-sm-12">
-                        <h4>Ma communauté</h4>
-                        <a href="https://www.twitch.tv/melsuny"><img src="img/twitch.png" height="35px"
-                                width="35px"></a>
-                        <a href="https://twitter.com/Melbuttny"> <img src="img/twitter.png" height="35px"
-                                width="35px"></a>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <h4>Mon Portfolio</h4>
-                        <a href="file:///D:/Document/Pro/Boulot/CVNum%C3%A9rique/dessins.html">Voir mes dessins</a>
+
+                    <div class="col-md-4 col-sm-12">
+                        <h4 class="text-white">Mon Portfolio</h4>
+                        <a href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/dessins.html">Voir
+                            mes dessins</a>
                         </br>
-                        <a href="file:///D:/Document/Pro/Boulot/CVNum%C3%A9rique/cv.html#portfolio">Voir mes projets</a>
+                        <a href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#portfolio">Voir
+                            mes projets</a>
                     </div>
-                    <div class="col-md-3 col-sm-12">
+                    <div class="col-md-4 col-sm-12">
                         <p>© Made by Mélanie Lussan with Bootstrap</p>
                         <p>Credit icon Flaticon</p>
                     </div>
@@ -509,6 +630,7 @@
         </footer>
 
     </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

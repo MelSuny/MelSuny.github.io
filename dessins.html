@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
@@ -15,49 +15,28 @@
 <body>
 
     <!-- Barre de navigation top -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-0" style="background-color:#f28482;">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="btn btn-light border border-dark mb-3 "
-                            href="file:///D:/Document/Pro/Boulot/CVNum%C3%A9rique/cv.html" role="button">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-light border border-dark mb-3 "
-                            href="file:///D:/Document/Pro/Boulot/CVNum%C3%A9rique/cv.html#qui" role="button">A propos de
-                            moi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-light border border-dark mb-3 "
-                            href="file:///D:/Document/Pro/Boulot/CVNum%C3%A9rique/cv.html#loisirs" role="button">Mes
-                            loisirs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-light border border-dark mb-3 "
-                            href="file:///D:/Document/Pro/Boulot/CVNum%C3%A9rique/cv.html#formation" role="button">Mon
-                            parcours</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-light border border-dark mb-3 "
-                            href="file:///D:/Document/Pro/Boulot/CVNum%C3%A9rique/cv.html#portfolio" role="button">Mon
-                            portfolio</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <nav class="mainNav navbar nav sticky-top txtWhite px-md-3 bg-black">
+        <a class="nav-link active rounded-pill"
+            href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#home">Home</a>
+        <a class="nav-link rounded-pill"
+            href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#qui">Moi et mes
+            loisirs</a>
+        <a class="nav-link rounded-pill"
+            href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#formation">Mon
+            parcours</a>
+        <a class="nav-link rounded-pill"
+            href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#portfolio">Mon
+            Portfolio</a>
+        <a class="nav-link rounded-pill"
+            href="file:///C:/Users/lussa/OneDrive/Documents/Perso/CV LussanMélanie[75].pdf">Voir mon CV</a>
     </nav>
 
     <!-- Container Portfolio -->
-    <div class="container-fluid bg-black">
+    <div class="container-fluid" id="maincontenair">
         <div class="row">
 
-            <div class="container mt-5 ">
-                <h1 class="text-center" style="color:white">Portfolio</h1>
+            <div class="container">
+                <h1 class="text-center" style="color:white">Mes dessins</h1>
                 <div class="row">
                     <div class="col-lg-4 mt-4">
                         <div class="card bg-secondary">
@@ -114,7 +93,8 @@
 
                     <div class="col-lg-4 mt-4">
                         <div class="card bg-secondary">
-                            <img class="card-img" src="img/draws/twitch/IcoTwitch.png" alt="Card image" style="width:100%">
+                            <img class="card-img" src="img/draws/twitch/IcoTwitch.png" alt="Card image"
+                                style="width:100%">
                             <div class="card-img-top">
                                 <h4 class="card-title">Twitch overlay emotes</h4>
                                 <p class="card-text">Il s'agit de toutes les emotes que j'ai créé pour ma chaine Twitch.
@@ -138,6 +118,34 @@
                 </div>
             </div>
         </div>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <a href="https://www.linkedin.com/in/m%C3%A9lanie-lussan-82781b1b7/">
+                            <img src="img/LinkedIn-PNG-HD-Images.png" height="35px" width="35px"></a>
+                        <a
+                            href="https://www.freepik.com/?_gl=1*1vcsyso*test_ga*Njg4NzQ1OTU5LjE2NTExNDk3Mjc.*test_ga_523JXC6VL7*MTY1MTE1MTc0OS4yLjEuMTY1MTE1MzU4NS4yNQ..*fp_ga*Njg4NzQ1OTU5LjE2NTExNDk3Mjc.*fp_ga_1ZY8468CQB*MTY1MTE1MTc0OS4yLjEuMTY1MTE1MzU4Ni4yNA..">
+                            <img src="img/flaticon.png" height="50px" width="50px"></a>
+                        <p>© Made by Mélanie Lussan with Bootstrap</p>
+                        <p>Credit icon Flaticon</p>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                        <h4 class="text-white">Mon Portfolio</h4>
+                        <a href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/dessins.html">Voir
+                            mes dessins</a>
+                        </br>
+                        <a href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#portfolio">Voir
+                            mes projets</a>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <p>© Made by Mélanie Lussan with Bootstrap</p>
+                        <p>Credit icon Flaticon</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
