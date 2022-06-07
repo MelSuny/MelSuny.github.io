@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "soul";
+    src: url(/assets/font/bohemian_soul/BohemianSoul.otf);
+}
+
+
 hr {
     height: 2px;
     color: rgb(82, 209, 209);
@@ -8,6 +14,24 @@ hr {
     margin-right: 100px;
 }
 
+#borderRidge {
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+@media screen and (min-width:308px) {
+    #profilMel {
+        border-radius: 100%;
+        right: 50%;
+        left: 50%;
+        top: 0rem;
+        height: 400px;
+        width: 300px;
+        transform: translate(-8%, -8%);
+        border-radius: 41% 23% 39% 20% / 55% 30% 35% 16%;
+    }
+}
+
 li {
     list-style: none;
     margin: 20px;
@@ -15,27 +39,33 @@ li {
     color: black;
 }
 
+li p {
+    font-size: small;
+
+}
+
 .nav-item .a {
     display: flex;
     justify-content: space-around;
 }
 
-.nav p{
+.nav p {
     color: white;
+    font-size: medium;
 }
 
 i {
-    color: #2364a8;
+    color: #E56B6F;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show .nav-link {
-    background-color: #2364a8;
+    background-color: #1bafaf;
     color: black;
 }
 
 .nav-link:hover {
-    background-color: #2364a8;
+    background-color: #1bafaf;
     color: white;
 }
 
@@ -50,17 +80,32 @@ i {
 }
 
 a.btn:hover {
-    background-color: #2364a8;
+
+    background-color: #1bafaf;
+    border-radius: 5px;
+}
+
+a.btn {
+
+    background-color: #E56B6F;
     border-radius: 5px;
 }
 
 /* .navbar.fixed-top{
-    background-color: #586BA4;
+    background-color:;
 } */
 
 a {
     color: white;
     text-decoration: none;
+}
+
+/* a#contact {
+    background-color: #E56B6F;
+} */
+
+a#contact:hover {
+    background-color: #1bafaf;
 }
 
 a:hover {
@@ -73,26 +118,23 @@ a:hover {
 }
 
 p {
+    font-size: x-large;
     color: black;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-/* form {
-    border: 1px black solid;
-    border-radius: 10px;
-    background-color: #2364a8;
-    padding: 5px 10px;
-    width: 100%;
-    margin: 10px;
-} */
+
+
 
 h1,
-h2 {
+h2,
+h3 {
     text-align: center;
     margin-top: 75px;
     font: italic;
     color: black;
+    font-family: 'soul', Courier, monospace;
 }
 
 #portfolio .card {
@@ -108,21 +150,13 @@ h2 {
 }
 
 /* Hover des cards début */
-/* .card-text:hover {
-    background-color: rgba(255, 255, 255, 0.418);
-    border-radius: 10px;
-} */
 
-/* .card-title:hover {
-    background-color: rgba(255, 255, 255, 0.418);
-    border-radius: 10px;
-} */
-
-.card-img-top:hover {
-    background-color: #2363a859;
+.carousel-item img {
+    border-radius: 15px;
 }
 
-h3, 
+
+h3,
 h5 {
     color: black;
 }
@@ -133,7 +167,7 @@ h5 {
 }
 
 .card.a.btn:hover {
-    background-color: #2363a859;
+    background-color: #1bafaf;
 }
 
 /* Hover des cards fin */
@@ -142,57 +176,31 @@ h5 {
 footer {
     text-align: center;
     padding-top: 10px;
-    background-color: #2364a8;
-}
-
-
-#maincontenair {
+    background-color: #B56576;
     overflow-x: hidden;
-    background-color: white;
 }
 
-#Vente {
-    color: black;
+body {
+    background-image: url(/img/draws/fondCV.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-#Dev {
-    color: black;
+#borderTopRightLeft {
+    border-top: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
 
-}
-
-#STMG {
-    color: black;
-
-}
-
-#SIO {
-    color: black;
 
 }
 
-#triangle-right {
-    width: 0;
-    height: 0;
-    border-top: 15px solid transparent;
-    border-left: 30px solid white;
-    border-bottom: 15px solid transparent;
+#borderTopLeft {
+    border-top: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+
 }
 
-.pres img {
-    right: auto;
-    left: 65%;
-    bottom: auto;
-    top: 25%;
+#borderTopRight {
+    border-top: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
 }
-
-.pres img {
-    position: relative;
-    height: 200px;
-    max-width: 60%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-}
-
-/* .prescolor {
-    background-color: rgba(0, 0, 0, 0.589);
-} */

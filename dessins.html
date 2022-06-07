@@ -15,138 +15,262 @@
 <body>
 
     <!-- Barre de navigation top -->
-    <nav class="mainNav navbar nav sticky-top txtWhite px-md-3 bg-black">
-        <a class="nav-link active rounded-pill"
-            href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#home">Home</a>
+    <nav class="mainNav navbar nav sticky-top txtWhite px-md-3 bg-black mx-auto">
+        <a class="nav-link active rounded-pill" href="http://127.0.0.1:5501/cv.html#home">
+            <i class="fa-solid fa-house fa-2x"></i>
+            <p class="d-none d-md-inline">Home</p>
+        </a>
+        <a class="nav-link rounded-pill" href="http://127.0.0.1:5501/cv.html#qui">
+            <i class="fa-solid fa-book-open fa-2x"></i>
+            <p class="d-none d-md-inline">Moi et mes loisirs</p>
+        </a>
+        <a class="nav-link rounded-pill" href="http://127.0.0.1:5501/cv.html#formation">
+            <i class="fa-solid fa-compass fa-2x"></i>
+            <p class="d-none d-md-inline">Mon parcours</p>
+        </a>
+        <a class="nav-link rounded-pill" href="http://127.0.0.1:5501/cv.html#portfolio">
+            <i class="fa-solid fa-laptop-code fa-2x"></i>
+            <p class="d-none d-md-inline">Mon Portfolio</p>
+        </a>
         <a class="nav-link rounded-pill"
-            href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#qui">Moi et mes
-            loisirs</a>
-        <a class="nav-link rounded-pill"
-            href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#formation">Mon
-            parcours</a>
-        <a class="nav-link rounded-pill"
-            href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#portfolio">Mon
-            Portfolio</a>
-        <a class="nav-link rounded-pill"
-            href="file:///C:/Users/lussa/OneDrive/Documents/Perso/CV LussanMélanie[75].pdf">Voir mon CV</a>
+            href="file:///C:/Users/lussa/OneDrive/Documents/Perso/CV LussanMélanie[75].pdf">
+            <i class="fa-solid fa-download fa-2x"> </i>
+            <p class="d-none d-md-inline"> Voir mon CV</p>
+        </a>
     </nav>
 
     <!-- Container Portfolio -->
-    <div class="container-fluid" id="maincontenair">
+    <!--Menu naviguant en tabs pour switcher entre mes dessins et mes créations internet pour Twitch notamment-->
+    <div class="container-fluid p-5" id="maincontenair">
         <div class="row">
+            <div class="offset-3 col-6 offset-3">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="draws-tab" data-bs-toggle="tab" data-bs-target="#draw"
+                            type="button" role="tab" aria-controls="draws" aria-selected="true"><h2>Dessins
+                            papier/numérique</h2></button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false"><h2>Créations pour les
+                            streams</h2></button>
+                    </li>
 
-            <div class="container">
-                <h1 class="text-center" style="color:white">Mes dessins</h1>
-                <div class="row">
-                    <div class="col-lg-4 mt-4">
-                        <div class="card bg-secondary">
-                            <img class="card-img" src="img/draws/Slytherin.png" alt="Card image" style="width:100%">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title">Slytherin</h4>
-                                <p class="card-text">Dessin effectué pour le style Harry Potter, représentant
-                                    un OC (Original Character) que j'ai inventé.
-                                </p>
+                </ul>
+            </div>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="draw" role="tabpanel" aria-labelledby="draws-tab">
 
+                    <div class="container-fluid">
+
+                        <h1 class="text-center">Mes dessins</h1>
+                        <div class="row">
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/Slytherin.png" alt="Card image"
+                                        style="width:100%">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/Pouffsoufle.png" alt="Card image"
+                                        style="width:100%">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/Serdaigle.png" alt="Card image"
+                                        style="width:100%">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/Gryffondor.png" alt="Card image"
+                                        style="width:100%">
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/Profile.png" alt="Card image"
+                                        style="width:100%">
+
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/FictionWOW.jpg" alt="Card image"
+                                        style="width:100%">
+
+                                </div>
                             </div>
                         </div>
-                    </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/SeryphVoid.jpg" alt="Card image"
+                                        style="width:100%">
 
-                    <div class="col-lg-4 mt-4">
-                        <div class="card bg-secondary">
-                            <img class="card-img" src="img/draws/Profile.png" alt="Card image" style="width:100%">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title">Représentation de moi-même</h4>
-                                <p class="card-text">Dessin me représentant.
-                                </p>
-
+                                </div>
                             </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-4 mt-4">
-                        <div class="card bg-secondary">
-                            <img class="card-img" src="img/draws/Profile.png" alt="Card image" style="width:100%">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title">Product Landing Page</h4>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry.
-                                </p>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/militcroft.jpg" alt="Card image"
+                                        style="width:100%">
 
+                                </div>
                             </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/Claire.jpg" alt="Card image"
+                                        style="width:100%">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/DessinACGirl.PNG" alt="Card image"
+                                        style="width:100%">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/Poppy.jpg" alt="Card image" style="width:100%">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/Poro.jpg" alt="Card image" style="width:100%">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/Numérisation_20180216 (16).jpg"
+                                        alt="Card image" style="width:100%">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/Numérisation_20180216 (2).jpg" alt="Card image"
+                                        style="width:100%">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/Profil2.png" alt="Card image"
+                                        style="width:100%">
+
+                                </div>
+                            </div>
+                        
+
                         </div>
                     </div>
                 </div>
-                <br>
-                <div class="row">
-                    <div class="col-lg-4 mt-4">
-                        <div class="card bg-secondary">
-                            <img class="card-img" src="img/draws/SeryphVoid.jpg" alt="Card image" style="width:100%">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title">Messaging Service</h4>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry.
-                                </p>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="container-fluid">
 
+                        <h1 class="text-center">Mes créations pour mes streams</h1>
+                        <div class="row">
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/twitch/IcoTwitch.png" alt="Card image"
+                                        style="width:100%">
+                                    <div class="card-img-top">
+                                        <h4 class="card-title">Twitch overlay emotes</h4>
+                                        <p class="card-text">Il s'agit de toutes les emotes que j'ai créé pour ma
+                                            chaine
+                                            Twitch.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/twitch/TestDiscutaillons.png" alt="Card image"
+                                        style="width:100%">
+                                    <div class="card-img-top">
+                                        <h4 class="card-title">Twitch overlay emotes</h4>
+                                        <p class="card-text">Il s'agit de toutes les emotes que j'ai créé pour ma
+                                            chaine
+                                            Twitch.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="card bg-secondary">
+                                    <img class="card-img" src="img/draws/twitch/TestOverlay.png" alt="Card image"
+                                        style="width:100%">
+                                    <div class="card-img-top">
+                                        <h4 class="card-title">Twitch overlay emotes</h4>
+                                        <p class="card-text">Il s'agit de toutes les emotes que j'ai créé pour ma
+                                            chaine
+                                            Twitch.
+                                        </p>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 mt-4">
-                        <div class="card bg-secondary">
-                            <img class="card-img" src="img/draws/twitch/IcoTwitch.png" alt="Card image"
-                                style="width:100%">
-                            <div class="card-img-top">
-                                <h4 class="card-title">Twitch overlay emotes</h4>
-                                <p class="card-text">Il s'agit de toutes les emotes que j'ai créé pour ma chaine Twitch.
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mt-4">
-                        <div class="card bg-secondary">
-                            <img class="card-img" src="img/draws/militcroft.jpg" alt="Card image" style="width:100%">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title">Blog App</h4>
-                                <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                    industry.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4 col-sm-12">
-                        <a href="https://www.linkedin.com/in/m%C3%A9lanie-lussan-82781b1b7/">
-                            <img src="img/LinkedIn-PNG-HD-Images.png" height="35px" width="35px"></a>
-                        <a
-                            href="https://www.freepik.com/?_gl=1*1vcsyso*test_ga*Njg4NzQ1OTU5LjE2NTExNDk3Mjc.*test_ga_523JXC6VL7*MTY1MTE1MTc0OS4yLjEuMTY1MTE1MzU4NS4yNQ..*fp_ga*Njg4NzQ1OTU5LjE2NTExNDk3Mjc.*fp_ga_1ZY8468CQB*MTY1MTE1MTc0OS4yLjEuMTY1MTE1MzU4Ni4yNA..">
-                            <img src="img/flaticon.png" height="50px" width="50px"></a>
-                        <p>© Made by Mélanie Lussan with Bootstrap</p>
-                        <p>Credit icon Flaticon</p>
-                    </div>
+    </div>
 
-                    <div class="col-md-4 col-sm-12">
-                        <h4 class="text-white">Mon Portfolio</h4>
-                        <a href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/dessins.html">Voir
-                            mes dessins</a>
-                        </br>
-                        <a href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#portfolio">Voir
-                            mes projets</a>
-                    </div>
-                    <div class="col-md-4 col-sm-12">
-                        <p>© Made by Mélanie Lussan with Bootstrap</p>
-                        <p>Credit icon Flaticon</p>
-                    </div>
+
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid g-0">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <a href="https://www.linkedin.com/in/m%C3%A9lanie-lussan-82781b1b7/">
+                        <img src="img/LinkedIn-PNG-HD-Images.png" height="35px" width="35px"></a>
+                    <a
+                        href="https://www.freepik.com/?_gl=1*1vcsyso*test_ga*Njg4NzQ1OTU5LjE2NTExNDk3Mjc.*test_ga_523JXC6VL7*MTY1MTE1MTc0OS4yLjEuMTY1MTE1MzU4NS4yNQ..*fp_ga*Njg4NzQ1OTU5LjE2NTExNDk3Mjc.*fp_ga_1ZY8468CQB*MTY1MTE1MTc0OS4yLjEuMTY1MTE1MzU4Ni4yNA..">
+                        <img src="img/flaticon.png" height="50px" width="50px"></a>
+                    <p>© Made by Mélanie Lussan with Bootstrap</p>
+                    <p>Credit icon Flaticon</p>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <h4 class="text-white">Mon Portfolio</h4>
+                    <a href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/dessins.html">Voir
+                        mes dessins</a>
+                    </br>
+                    <a href="file:///C:/Users/lussa/OneDrive/Documents/Cours/WEBSITE/CVNumerique/cv.html#portfolio">Voir
+                        mes projets</a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <p>© Made by Mélanie Lussan with Bootstrap</p>
+                    <p>Credit icon Flaticon</p>
                 </div>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
