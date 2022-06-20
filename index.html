@@ -36,7 +36,7 @@
                 <p class="d-none d-md-inline">Mon Portfolio</p>
             </a>
             <a class="nav-link rounded-pill"
-                href="img/CV_DevWeb&WebMobile.png">
+                href="file:///C:/Users/lussa/OneDrive/Documents/Perso/CV_LussanM%C3%A9lanie[75].pdf">
                 <i class="fa-solid fa-download fa-2x"> </i>
                 <p class="d-none d-md-inline"> Voir mon CV</p>
             </a>
@@ -161,7 +161,6 @@
 
 
             <!-- Formation/Experience et plus si besoin-->
-            <!-- Changement de disposition pour cette rubrique-->
 
             <div class="container-fluid">
                 <div class="row">
@@ -342,10 +341,6 @@
                                                         et du
                                                         JQuery
                                                     </li>
-                                                     <li>Création d'un Shifumi original (version Tomb Raider cette fois-ci) avec du JavaScript
-                                                        et du
-                                                        JQuery
-                                                    </li>
                                                 </ol>
                                             </div>
                                         </div>
@@ -375,16 +370,17 @@
 
             <hr>
 
-             <!-- Présentation du portfolio, avec des images des projets en cours, maquettages etc. et des images des jeux Shifumi effectués en JS et JQuery, sous la même forme que mes expériences-->
+            <!-- Présentation du portfolio, avec des images des projets en cours, maquettages etc. et des images des jeux Shifumi effectués en JS et JQuery, sous la même forme que mes expériences-->
 
             <div class="container-fluid">
                 <div class="row">
-
-                    <div class="offset-md-3 col-md-6" id="borderTopRightLeft">
-                        <h3 class="p-1 bg-white text-center">Derniers Projets en développement
-                            web et dessins</h3>
+                    <div id="portfolio">
+                        <div class="offset-md-3 col-md-6" id="borderTopRightLeft">
+                            <h3 class="p-1 bg-white text-center">Derniers Projets en développement
+                                web et dessins</h3>
+                        </div>
+                        <div class="col-md-3"> </div>
                     </div>
-                    <div class="col-md-3"> </div>
                 </div>
 
                 <!--Porfolio en navigation, pour différencier les développements en cours de formations et les versions jeux-->
@@ -415,8 +411,9 @@
                                             </li>
                                         </ul>
                                     </div>
-
                                 </div>
+
+                                <!-- Portfolio développement et exposés-->
                                 <div id="borderRidge">
                                     <div class="tab-content col col-md-12" id="myTabContent">
                                         <div class="tab-pane fade show active" id="prog" role="tabpanel"
@@ -466,8 +463,66 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                                                    <div class="card h-100 prescolor">
+                                                        <div id="carouselExampleControls" class="carousel slide"
+                                                            data-bs-touch="false" data-bs-interval="false">
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                    <img src="img/ProjetTP/Banneer.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="img/ProjetTP/MaquettePageVitrine.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="img/ProjetTP/Inscription&Connexion.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="img/ProjetTP/Lecture.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="img/ProjetTP/CréationArticle.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="img/ProjetTP/CréationFiction.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                            </div>
+                                                            <button class="carousel-control-prev" type="button"
+                                                                data-bs-target="#carouselExampleControls"
+                                                                data-bs-slide="prev">
+                                                                <span class="carousel-control-prev-icon"
+                                                                    aria-hidden="true"></span>
+                                                                <span class="visually-hidden">Previous</span>
+                                                            </button>
+                                                            <button class="carousel-control-next" type="button"
+                                                                data-bs-target="#carouselExampleControls"
+                                                                data-bs-slide="next">
+                                                                <span class="carousel-control-next-icon"
+                                                                    aria-hidden="true"></span>
+                                                                <span class="visually-hidden">Next</span>
+                                                            </button>
+                                                        </div>
+                                                        <h3 class="ms-4 ">Maquette projet TP</h3>
+                                                        <div class="card-body">
+                                                            <p class="card-text">Créations des maquettes pour mon projet
+                                                                de TP de fin d'années. Un petit aperçu est visible grâce
+                                                                au carousel au dessus. Les maquettes sont effectuées
+                                                                avec le logiciel et le site web Figma.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
+
+
+
+                                        <!-- Portfolio développement en lien avec des jeux-->
 
                                         <div class="tab-pane fade" id="game" role="tabpanel" aria-labelledby="game-tab">
                                             <div class="row">
@@ -570,6 +625,8 @@
                                             </div>
                                         </div>
 
+                                        <!-- Portfolio de mes dessins -->
+
                                         <div class="tab-pane fade" id="draws" role="tabpanel"
                                             aria-labelledby="draws-tab">
                                             <div class="row">
@@ -631,25 +688,31 @@
                     </div>
                 </div>
 
-            <!--Me contacter après avoir vu la totalité du CV numérique-->
-            <div class="container-fluid align-middle ">
-                <div class="row">
-                    <div class="col col-12 col-md-12 prescolor text-center p-5">
-                        <p>Vous souhaitez me contacter ?</p>
-                        <i class="fa-solid fa-car-on fa-3x"></i> <i class="fa-solid fa-keyboard fa-3x"></i>
-                        <i class="fa-solid fa-computer-mouse fa-3x"></i>
-                        <h1>Mélanie Lussan</h1>
-                        <h2>Développement web et web mobile Junior</h2>
-                        <p class="text-center">25 ans - Compiègne (60) - Permis B - véhiculée </p>
-                        <p class="text-center">Motivée - Ambitieuse - Curieuse </p>
 
-                        <a href="mailto:lussan.mel@hotmail.com" class="btn rounded-pill btn-lg border border-dark"
-                            id="contact">Contactez-moi par
-                            mail</a>
-                    </div>
+                <hr>
+
+            </div>
+        </div>
+
+        <!--Me contacter après avoir vu la totalité du CV numérique-->
+        <div class="container-fluid align-middle ">
+            <div class="row">
+                <div class="col col-12 col-md-12 prescolor text-center p-5">
+                    <p>Vous souhaitez me contacter ?</p>
+                    <i class="fa-solid fa-car-on fa-3x"></i> <i class="fa-solid fa-keyboard fa-3x"></i>
+                    <i class="fa-solid fa-computer-mouse fa-3x"></i>
+                    <h1>Mélanie Lussan</h1>
+                    <h2>Développement web et web mobile Junior</h2>
+                    <p class="text-center">25 ans - Compiègne (60) - Permis B - véhiculée </p>
+                    <p class="text-center">Motivée - Ambitieuse - Curieuse </p>
+
+                    <a href="mailto:lussan.mel@hotmail.com" class="btn rounded-pill btn-lg border border-dark"
+                        id="contact">Contactez-moi par
+                        mail</a>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <hr>
 
