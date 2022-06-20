@@ -375,209 +375,261 @@
 
             <hr>
 
-            <!-- Portofolio développeur-->
+             <!-- Présentation du portfolio, avec des images des projets en cours, maquettages etc. et des images des jeux Shifumi effectués en JS et JQuery, sous la même forme que mes expériences-->
 
             <div class="container-fluid">
                 <div class="row">
 
-                    <div class="col-md-3"> </div>
-                    <div class="col col-md-6" id="borderTopRightLeft">
+                    <div class="offset-md-3 col-md-6" id="borderTopRightLeft">
                         <h3 class="p-1 bg-white text-center">Derniers Projets en développement
-                            web</h3>
+                            web et dessins</h3>
                     </div>
                     <div class="col-md-3"> </div>
                 </div>
-                <div id="portfolio">
+
+                <!--Porfolio en navigation, pour différencier les développements en cours de formations et les versions jeux-->
+
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-sm-12 col-md-4 mt-3 mb-3">
-                            <div class="card h-100 prescolor">
-                                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
-                                    data-bs-interval="false">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="img/PreziPresIMG1.png" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/PreziPresIMG2.png" class="d-block w-100" alt="...">
-                                        </div>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex row">
+                                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link active" id="prog-tab" data-bs-toggle="tab"
+                                                    data-bs-target="#prog" type="button" role="tab" aria-controls="prog"
+                                                    aria-selected="true">Projets en développement</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="game-tab" data-bs-toggle="tab"
+                                                    data-bs-target="#game" type="button" role="tab" aria-controls="game"
+                                                    aria-selected="false">Projet de développement version
+                                                    jeux-vidéos</button>
+                                            </li>
+                                            <li class="nav-item" role="presentation">
+                                                <button class="nav-link" id="draws-tab" data-bs-toggle="tab"
+                                                    data-bs-target="#draws" type="button" role="tab"
+                                                    aria-controls="draws" aria-selected="false">Dessins et Créations
+                                                    numérique</button>
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <button class="carousel-control-prev" type="button"
-                                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button"
-                                        data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
+
                                 </div>
-                                <h3 class="ms-4 ">Frameworks CSS</h3>
-                                <div class="card-body">
-                                    <h5 class="card-title">Frameworks CSS</h5>
-                                    <p class="card-text">Présentation rapide et sommaire de quelques frameworks
-                                        CSS
-                                        avec
-                                        prezi.</p>
-                                    <a href="https://prezi.com/p/dupfi-ciexdz/?present=1"
-                                        class="btn rounded-pill border border-dark">Voir
-                                        la présentation</a>
+                                <div id="borderRidge">
+                                    <div class="tab-content col col-md-12" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="prog" role="tabpanel"
+                                            aria-labelledby="prog-tab">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                                                    <div class="card h-100 prescolor">
+                                                        <div id="carouselExampleControlsNoTouching"
+                                                            class="carousel slide" data-bs-touch="false"
+                                                            data-bs-interval="false">
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                    <img src="img/PreziPresIMG1.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="img/PreziPresIMG2.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                            </div>
+                                                            <button class="carousel-control-prev" type="button"
+                                                                data-bs-target="#carouselExampleControlsNoTouching"
+                                                                data-bs-slide="prev">
+                                                                <span class="carousel-control-prev-icon"
+                                                                    aria-hidden="true"></span>
+                                                                <span class="visually-hidden">Previous</span>
+                                                            </button>
+                                                            <button class="carousel-control-next" type="button"
+                                                                data-bs-target="#carouselExampleControlsNoTouching"
+                                                                data-bs-slide="next">
+                                                                <span class="carousel-control-next-icon"
+                                                                    aria-hidden="true"></span>
+                                                                <span class="visually-hidden">Next</span>
+                                                            </button>
+                                                        </div>
+                                                        <h3 class="ms-4 ">Frameworks CSS</h3>
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">Frameworks CSS</h5>
+                                                            <p class="card-text">Présentation rapide et sommaire de
+                                                                quelques frameworks
+                                                                CSS
+                                                                avec
+                                                                prezi.</p>
+                                                            <a href="https://prezi.com/p/dupfi-ciexdz/?present=1"
+                                                                class="btn rounded-pill border border-dark">Voir
+                                                                la présentation</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="game" role="tabpanel" aria-labelledby="game-tab">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                                                    <div class="card h-100  prescolor">
+                                                        <div id="carouselRaider" class="carousel slide"
+                                                            data-bs-touch="false" data-bs-interval="false">
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                    <img src="img/tombraider.png" class="d-block w-100"
+                                                                        alt="...">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="img/Shiffu-Raider/PresRaider0.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="img/Shiffu-Raider/PresRaider1.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                            </div>
+                                                            <button class="carousel-control-prev" type="button"
+                                                                data-bs-target="#carouselRaider" data-bs-slide="prev">
+                                                                <span class="carousel-control-prev-icon"
+                                                                    aria-hidden="true"></span>
+                                                                <span class="visually-hidden">Previous</span>
+                                                            </button>
+                                                            <button class="carousel-control-next" type="button"
+                                                                data-bs-target="#carouselRaider" data-bs-slide="next">
+                                                                <span class="carousel-control-next-icon"
+                                                                    aria-hidden="true"></span>
+                                                                <span class="visually-hidden">Next</span>
+                                                            </button>
+                                                        </div>
+                                                        <h3 class="ms-4 ">Shifumi version Tomb Raider</h3>
+                                                        <div class="card-body">
+                                                            <h5 class="card-title ">Shifu-Raider</h5>
+                                                            <p class="card-text">Création d'un projet autour d'un
+                                                                Shifumi avec l'univers
+                                                                de
+                                                                la
+                                                                légendaire archéologue, Lara Croft, venant tout droit de
+                                                                Tomb Raider,
+                                                                sur un
+                                                                fond musical bien connu de 1996.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                                                    <div class="card h-100  prescolor">
+                                                        <div id="carouselShifu" class="carousel slide"
+                                                            data-bs-touch="false" data-bs-interval="false">
+                                                            <div class="carousel-inner">
+                                                                <div class="carousel-item active">
+                                                                    <img src="img/1200px-Mass_Effect_logo.png"
+                                                                        class="d-block w-100">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="img/Shiffu-Effect/PresShifu.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="img/Shiffu-Effect/PresShifuPierre.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+                                                                <div class="carousel-item">
+                                                                    <img src="img/Shiffu-Effect/PresShifuPerdu.png"
+                                                                        class="d-block w-100" alt="...">
+                                                                </div>
+
+                                                            </div>
+                                                            <button class="carousel-control-prev" type="button"
+                                                                data-bs-target="#carouselShifu" data-bs-slide="prev">
+                                                                <span class="carousel-control-prev-icon"
+                                                                    aria-hidden="true"></span>
+                                                                <span class="visually-hidden">Previous</span>
+                                                            </button>
+                                                            <button class="carousel-control-next" type="button"
+                                                                data-bs-target="#carouselShifu" data-bs-slide="next">
+                                                                <span class="carousel-control-next-icon"
+                                                                    aria-hidden="true"></span>
+                                                                <span class="visually-hidden">Next</span>
+                                                            </button>
+                                                        </div>
+                                                        <h3 class="ms-4 ">Shifumi version Mass Effect</h3>
+                                                        <div class="card-body">
+                                                            <h5 class="card-title ">Shifu-Effect</h5>
+                                                            <p class="card-text ">Création d'un Shifumi en utilisant
+                                                                HTML, CSS,
+                                                                bootstrap,
+                                                                JavaScrip et JQuery. Il s'agit d'un Shifumi fait avec
+                                                                l'imagination
+                                                                d'une
+                                                                joueuse Mass Effect, et donc avec le commandant Shepard.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="draws" role="tabpanel"
+                                            aria-labelledby="draws-tab">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                                                    <div class="card h-100 prescolor">
+                                                        <img src="img/Profileeyesmouth.ico" class="card-img-top">
+                                                        <h3 class="ms-4">Dessins</h3>
+                                                        <div class="card-body">
+                                                            <h5 class="card-title "></h5>
+                                                            <p class="card-text">Création d'une page unique où je
+                                                                mettrais
+                                                                progressivement
+                                                                mes
+                                                                dessins
+                                                                version papier et version numérique </p>
+                                                            <a href="https://melsuny.github.io/dessins.html"
+                                                                class="btn border border-dark rounded-pill">Voir
+                                                                les
+                                                                dessins</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                                                    <div class="card h-100 prescolor">
+                                                        <img src="img/draws/ACGirlSecondVersion.png">
+                                                    </div>
+                                                </div>
+
+
+
+                                                <div class="col-sm-12 col-md-4 mt-3 mb-3">
+                                                    <div class="card h-100 prescolor">
+                                                        <img src="img/draws/twitch/TestOverlay.png"
+                                                            class="card-img-top">
+                                                        <h3 class="ms-4">Création stream et overlay</h3>
+                                                        <div class="card-body">
+                                                            <h5 class="card-title ">Dessins</h5>
+                                                            <p class="card-text">Création d'une page unique où je
+                                                                mettrais
+                                                                progressivement
+                                                                mes
+                                                                dessins
+                                                                version papier et version numérique </p>
+                                                            <a href="https://melsuny.github.io/dessins.html"
+                                                                class="btn border border-dark rounded-pill">Voir
+                                                                les
+                                                                dessins</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-4 mt-3 mb-3">
-                            <div class="card h-100  prescolor">
-                                <div id="carouselRaider" class="carousel slide" data-bs-touch="false"
-                                    data-bs-interval="false">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="img/tombraider.png" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/Shiffu-Raider/PresRaider0.png" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/Shiffu-Raider/PresRaider1.png" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                    </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselRaider"
-                                        data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselRaider"
-                                        data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                                <h3 class="ms-4 ">Shifumi version Tomb Raider</h3>
-                                <div class="card-body">
-                                    <h5 class="card-title ">Shifu-Raider</h5>
-                                    <p class="card-text">Création d'un projet autour d'un Shifumi avec l'univers
-                                        de
-                                        la
-                                        légendaire archéologue, Lara Croft, venant tout droit de Tomb Raider,
-                                        sur un
-                                        fond musical bien connu de 1996.</p>
-                                    <!-- <a href="#" class="btn border border-dark rounded-pill">Voir
-                                        le
-                                        projet</a> -->
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-12 col-md-4 mt-3 mb-3">
-                            <div class="card h-100  prescolor">
-                                <div id="carouselShifu" class="carousel slide" data-bs-touch="false"
-                                    data-bs-interval="false">
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img src="img/1200px-Mass_Effect_logo.png" class="d-block w-100">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/Shiffu-Effect/PresShifu.png" class="d-block w-100" alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/Shiffu-Effect/PresShifuPierre.png" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img src="img/Shiffu-Effect/PresShifuPerdu.png" class="d-block w-100"
-                                                alt="...">
-                                        </div>
-
-                                    </div>
-                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselShifu"
-                                        data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Previous</span>
-                                    </button>
-                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselShifu"
-                                        data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="visually-hidden">Next</span>
-                                    </button>
-                                </div>
-                                <h3 class="ms-4 ">Shifumi version Mass Effect</h3>
-                                <div class="card-body">
-                                    <h5 class="card-title ">Shifu-Effect</h5>
-                                    <p class="card-text ">Création d'un Shifumi en utilisant HTML, CSS,
-                                        bootstrap,
-                                        JavaScript et JQuery. Il s'agit d'un Shifumi fait avec l'imagination
-                                        d'une
-                                        joueuse Mass Effect, et donc avec le commandant Shepard.</p>
-                                    <!-- <a href="#" class="btn border border-dark rounded-pill">Voir
-                                        le
-                                        projet</a> -->
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
                 </div>
-            </div>
-
-            <hr>
-            <!-- Portofolio dessins-->
-
-            <div class="container-fluid">
-                <div class="row">
-
-                    <div class="col-md-3"> </div>
-                    <div class="col col-md-6" id="borderTopRightLeft">
-                        <h3 class="p-1 bg-white text-center ">Créations et dessins</h3>
-                    </div>
-                    <div class="col-md-3"> </div>
-
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4 mt-3 mb-3">
-                            <div class="card h-100 prescolor">
-                                <img src="img/Profileeyesmouth.ico" class="card-img-top">
-                                <h3 class="ms-4">Dessins</h3>
-                                <div class="card-body">
-                                    <h5 class="card-title "></h5>
-                                    <p class="card-text">Création d'une page unique où je mettrais
-                                        progressivement
-                                        mes
-                                        dessins
-                                        version papier et version numérique </p>
-                                    <a href="https://melsuny.github.io/dessins.html" class="btn border border-dark rounded-pill">Voir
-                                        les
-                                        dessins</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-12 col-md-4 mt-3 mb-3">
-                            <div class="card h-100 prescolor">
-                                <img src="img/draws/ACGirlSecondVersion.png">
-                            </div>
-                        </div>
-
-
-
-                        <div class="col-sm-12 col-md-4 mt-3 mb-3">
-                            <div class="card h-100 prescolor">
-                                <img src="img/draws/twitch/TestOverlay.png" class="card-img-top">
-                                <h3 class="ms-4">Création stream et overlay</h3>
-                                <div class="card-body">
-                                    <h5 class="card-title ">Dessins</h5>
-                                    <p class="card-text">Création d'une page unique où je mettrais
-                                        progressivement
-                                        mes créations par rapport à ma page Twitch</p>
-                                    <a href="https://melsuny.github.io/dessins.html" class="btn border border-dark rounded-pill">Voir
-                                        les
-                                        dessins</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <!--Me contacter après avoir vu la totalité du CV numérique-->
             <div class="container-fluid align-middle ">
